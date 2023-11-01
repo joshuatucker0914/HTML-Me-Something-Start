@@ -1,1 +1,101 @@
 /* Write your CSS here! */
+
+body {
+    background-color: black;
+    color: grey;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 8px;
+    display:block;
+    padding: 0;
+  }
+ 
+  
+  /* Apply styles to the header */
+  header {
+    background-color: purple;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    border:black;
+    border-radius: 5px;
+  }
+  
+  /* Apply styles to the h1 elements within the header */
+  header h1 {
+    color: white;
+    font-size: 36px;
+  }
+  
+  /* Apply styles to the main content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Apply styles to the h2 elements within articles */
+  article h2 {
+    color: purple;
+    font-size: 24px;
+  }
+  
+  /* Apply styles to the paragraphs within articles using IDs */
+  p {
+    color: white;
+  }
+  
+  /* Apply styles to images within articles */
+  article img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Apply styles to the footer */
+  footer {
+    background-color: purple;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+    position: relative;
+    max-width: auto;;
+  }
+  
+  /* Apply styles to the <em> element within the footer */
+  footer em {
+    color: black;
+  }
+
+  #mainHeading{
+    background-color: red;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    border: 2px solid black;
+    position: absolute;
+  }
+
+  #titleTag{
+    color: white;
+    font-size: 28px;
+  }
+
+  #img1{
+    max-width: 50%;
+    float: left;
+  }
+
+  #img3 {
+    max-width: 75%;
+    float: left;
+}
+
+.funParagraph{
+    color: green;
+    color: white;
+}
